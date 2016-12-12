@@ -13,6 +13,9 @@ class GroupsController < ApplicationController
       render :new
     end
   end
+  def show
+    @group = Group.find(params[:id])
+  end
 
 
   private
