@@ -36,6 +36,8 @@ gem "devise"
 
 gem "will_paginate"
 
+gem 'bullet', group: 'development'
+
 group :production do
   gem "pg"
 end
